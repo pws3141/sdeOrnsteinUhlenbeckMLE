@@ -18,7 +18,3 @@ sdeMLE <- t(sapply(sdeList, function(y) {
 
 mleMean <- colSums(sdeMLE) / (N - 1)
 
-
-
-mleOU <- function(X, t, gamma0, mu0, max.iter=1000, diff.tol = 1e-8) {
-
